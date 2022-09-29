@@ -1,0 +1,36 @@
+.box {
+  height: 23em;
+  width: 15em;
+  background-color: black;
+  border-radius: 1em;
+  margin: 50px;
+  padding-top: 20px;
+}
+button {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  margin: 3px;
+  font-size: large;
+  font-weight: bold;
+}
+button:hover {
+  cursor: pointer;
+}
+.hiddenbtn {
+  visibility: hidden;
+}
+.orangebtn {
+  background-color: #ff9500;
+  color: #fff;
+}
+.leftbtn {
+  background-color: #505050;
+  color: #fff;
+}
+.result {
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1em;
+}
