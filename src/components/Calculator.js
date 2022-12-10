@@ -14,7 +14,7 @@ const Calculator = () => {
   const changeOperator = () => (num > 0 ? setNum(-num) : setNum(Math.abs(num)));
 
   const percent = () =>
-  setNum((oldnum / num) * 100 );
+  setNum(num / 100 );
 
   const handleOperator = (e) => {
     let operatorInput = e.target.value;
